@@ -37,7 +37,7 @@ export default function Admin() {
         {
           headers: {
             "Content-Type": "application/json",
-            Authorization: `Bearer eyJKV1QiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjE5LCJyb2wiOiJVU0VSIiwiaWF0IjoxNzA1NTk4MjA3LCJleHAiOjE5MDA4MDc4MDd9.9RLHa-6D5L3hNLz5n01Ath4Y6ElzHJibRlj5nN1Xlu1t4kDiZVP660W9a446hUm7tguBGLD1FczZiibwhaXydA`,
+            Authorization: `Bearer ${process.env.REACT_APP_ACCESSTOKEN}`,
           },
         }
       );
@@ -73,7 +73,7 @@ export default function Admin() {
         {
           headers: {
             "Content-Type": "multipart/form-data",
-            Authorization: `Bearer eyJKV1QiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJ1aWQiOjE5LCJyb2wiOiJVU0VSIiwiaWF0IjoxNzA1NTk4MjA3LCJleHAiOjE5MDA4MDc4MDd9.9RLHa-6D5L3hNLz5n01Ath4Y6ElzHJibRlj5nN1Xlu1t4kDiZVP660W9a446hUm7tguBGLD1FczZiibwhaXydA`,
+            Authorization: `Bearer ${process.env.REACT_APP_ACCESSTOKEN}`,
           },
         }
       );

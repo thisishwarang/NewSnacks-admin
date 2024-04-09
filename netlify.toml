@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/admin/v1/articles/transform"
+  to = "https://dev.jaeyun.shop/v1/articles/transform"
+  status = 200
+
+[[redirects]]
+  from = "/admin/v1/articles"
+  to = "https://dev.jaeyun.shop/v1/articles"
+  status = 200

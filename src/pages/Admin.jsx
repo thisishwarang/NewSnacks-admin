@@ -28,6 +28,7 @@ export default function App() {
     setImgSrc(file);
   };
   const bodyChangeBtn = async () => {
+    console.log(body);
     try {
       const response = await axios.post(
         "https://dev.jaeyun.shop/v1/articles/transform",
@@ -149,7 +150,9 @@ export default function App() {
       />
       <br />
       <br />
-      <button onClick={bodyChangeBtn}>본문변환</button>
+      <button type="button" onClick={bodyChangeBtn}>
+        본문변환
+      </button>
       <button type="submit">아티클 저장</button>
     </form>
   );
